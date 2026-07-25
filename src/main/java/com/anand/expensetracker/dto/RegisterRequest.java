@@ -1,4 +1,4 @@
-package com.anand.expansetracker.dto;
+package com.anand.expensetracker.dto;
 
 import lombok.Data;
 

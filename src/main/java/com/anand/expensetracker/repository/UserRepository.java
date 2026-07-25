@@ -1,10 +1,10 @@
-package com.anand.expansetracker.repository;
+package com.anand.expensetracker.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.anand.expansetracker.entity.User;
+import com.anand.expensetracker.entity.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
 

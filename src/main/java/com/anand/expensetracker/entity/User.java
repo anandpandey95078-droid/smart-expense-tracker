@@ -1,4 +1,4 @@
-package com.anand.expansetracker.entity;
+package com.anand.expensetracker.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

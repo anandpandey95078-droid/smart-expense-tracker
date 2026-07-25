@@ -1,4 +1,4 @@
-package com.anand.expansetracker.config;
+package com.anand.expensetracker.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,12 +1,12 @@
-package com.anand.expansetracker.controller;
+package com.anand.expensetracker.controller;
 
 import org.springframework.web.bind.annotation.*;
 
-import com.anand.expansetracker.dto.AuthResponse;
-import com.anand.expansetracker.dto.LoginRequest;
-import com.anand.expansetracker.dto.RegisterRequest;
-import com.anand.expansetracker.entity.User;
-import com.anand.expansetracker.service.AuthService;
+import com.anand.expensetracker.dto.AuthResponse;
+import com.anand.expensetracker.dto.LoginRequest;
+import com.anand.expensetracker.dto.RegisterRequest;
+import com.anand.expensetracker.entity.User;
+import com.anand.expensetracker.service.AuthService;
 
 @RestController
 @RequestMapping("/api/auth")

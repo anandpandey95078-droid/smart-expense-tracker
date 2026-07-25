@@ -1,13 +1,13 @@
-package com.anand.expansetracker.service;
+package com.anand.expensetracker.service;
 
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.anand.expansetracker.dto.AuthResponse;
-import com.anand.expansetracker.dto.LoginRequest;
-import com.anand.expansetracker.entity.User;
-import com.anand.expansetracker.repository.UserRepository;
-import com.anand.expansetracker.security.JwtUtil;
+import com.anand.expensetracker.dto.AuthResponse;
+import com.anand.expensetracker.dto.LoginRequest;
+import com.anand.expensetracker.entity.User;
+import com.anand.expensetracker.repository.UserRepository;
+import com.anand.expensetracker.security.JwtUtil;
 
 @Service
 public class AuthService {

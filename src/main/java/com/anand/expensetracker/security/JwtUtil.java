@@ -1,4 +1,4 @@
-package com.anand.expansetracker.security;
+package com.anand.expensetracker.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
